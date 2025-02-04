@@ -18,10 +18,9 @@ header .Topbar {
 header .Topbar > .Nav,
 header .Topbar> div {
     color: #ffffff;
-    border: 2px dashed black;
 }
 
-header .Topbar ul {
+ .Lista {
     list-style: none;
     display: flex;
     gap: 10px;
@@ -55,7 +54,6 @@ header .Topbar > .Logo {
 /*MAIN*/
 main {
     padding: 60px 270px;
-    background-color: aqua;
 }
 
 .Row {
@@ -69,7 +67,6 @@ main {
     width: 32.6%;
     height: 400px;
     flex-shrink: 0;
-    border: 2px dashed black;
     margin-bottom: 60px;
     position: relative;
 }
@@ -142,5 +139,25 @@ main .Row .Box .Elements > h4 {
 /*/MAIN*/
 
 /*FOOTER*/
+footer {
+    background-color: #1a1a1a;
+    padding: 25px 270px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .Srl > h4 {
+    color: #ffffff;
+    padding-bottom: 5px;
+}
+
+.Finale {
+    color: #ffffff;
+    font-size: smaller;
+}
+
+footer .Info > h5 {
+    color: #ffffff;
+    padding-bottom: 5px;
+}
 /*/FOOTER*/
 
