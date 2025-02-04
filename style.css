@@ -108,6 +108,9 @@ main {
 .N {
     color: #ff0000;
 }
+.O {
+    text-decoration: line-through;
+}
 
 .Brand {
     font-size: x-small;
