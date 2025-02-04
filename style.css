@@ -52,6 +52,7 @@ header .Topbar > .Logo {
 }
 /*/HEADER*/
 
+/*MAIN*/
 main {
     padding: 60px 270px;
     background-color: aqua;
@@ -70,4 +71,67 @@ main {
     flex-shrink: 0;
     border: 2px dashed black;
     margin-bottom: 60px;
+    position: relative;
 }
+
+.Elements {
+    font-size: smaller;
+}
+
+.Sale {
+    background-color: #ff0000;
+    color: #ffffff;
+    position: absolute;
+    top: 350px;
+    padding: 1px;
+}
+.Certif {
+    background-color: #008000;
+    color: #ffffff;
+    position: absolute;
+    top: 350px;
+    left: 35px;
+    padding: 1px;
+}
+.Price {
+    font-size: x-small;
+    display: flex;
+    position: absolute;
+    top: 420px;
+}
+.N {
+    color: #ff0000;
+}
+
+.Brand {
+    font-size: x-small;
+    position: absolute;
+    top: 401px;
+}
+main .Row .Box .Elements > h4 {
+    font-size: x-small;
+    position: absolute;
+    top: 410px;
+}
+
+.Like {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.Img {
+    width: 100%;
+    height: 100%;
+}
+/*/MAIN*/
+
+/*FOOTER*/
+/*/FOOTER*/
+
