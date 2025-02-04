@@ -93,6 +93,15 @@ main {
     left: 35px;
     padding: 1px;
 }
+.Last {
+    background-color: #008000;
+    color: #ffffff;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    padding: 1px;
+}
+
 .Price {
     font-size: x-small;
     display: flex;
