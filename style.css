@@ -31,14 +31,23 @@ header .Topbar > .Nav,
 header .Topbar > .Clg {
     width: 250px;
     flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+header .Topbar > .Clg {
+    justify-content: right;
+}
+
+header .Topbar > .Nav {
+    font-weight: bolder;
 }
 
 header .Topbar > .Logo {
     flex-grow: 1;
     text-align: center;
 }
-
-header .Topbar > .Dx {
-    text-align: center;
+.LogoImg {
+    width: 40%;
 }
 /*/HEADER*/
