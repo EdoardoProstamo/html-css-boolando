@@ -11,11 +11,34 @@ header {
     background-color: #ff6900;
     
 }
+header .Topbar {
+    display: flex;
+}
 
-.Nav > ul,
-.Nav> div {
+header .Topbar > .Nav,
+header .Topbar> div {
+    color: #ffffff;
     border: 2px dashed black;
 }
 
+header .Topbar ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
 
+header .Topbar > .Nav,
+header .Topbar > .Clg {
+    width: 250px;
+    flex-shrink: 0;
+}
+
+header .Topbar > .Logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+header .Topbar > .Dx {
+    text-align: center;
+}
 /*/HEADER*/
