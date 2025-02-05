@@ -81,6 +81,7 @@ main {
     position: absolute;
     top: 350px;
     padding: 1px;
+    z-index: 2;
 }
 .Certif {
     background-color: #008000;
@@ -89,6 +90,7 @@ main {
     top: 350px;
     left: 35px;
     padding: 1px;
+    z-index: 2;
 }
 .Last {
     background-color: #008000;
